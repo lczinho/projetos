@@ -1,0 +1,18 @@
+void main() {
+   
+ var a = 3;
+ var b = 3;  
+ var c = 2;
+ var d = 6;
+  
+  if(b>c && d > a && c+d> a+b && c>0 && d>0 && a %2==0){
+    print('Valores aceitos');
+  }else{
+    print('Valores não aceitos');
+  }
+   
+  
+  
+  
+  
+} 
