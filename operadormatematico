@@ -1,0 +1,36 @@
+void main() {
+   
+  var n1 = 2;
+  var n2 = 4;
+  var n3 = 7.5;
+  var n4 = 8;
+  var notam = 6.4;
+  
+  
+  
+  var soma = n1 + n2 + n3 + n4;
+  var media = soma/4;
+  
+  
+  
+  print('Média é igual a $media');
+ 
+  if (media > 5 || media<7) {
+    print('Aluno em exame');
+  } 
+  
+  var notaexame = media + notam;
+  var provaexame = notaexame/2;
+  
+  print('Nota do exame é igual a $provaexame');
+  
+  if(provaexame > 4.9) {
+    print('Aluno Aprovado');
+  } else {
+    print ('Aluno reprovado');
+  }
+  
+  
+  
+  
+}
