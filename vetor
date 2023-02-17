@@ -1,0 +1,14 @@
+import 'dart:io';
+
+void main() {
+  print('dIGITE UM NUMERO');
+  var numero = stdin.readLineSync()!;
+  int numeroConvertido = int.parse(numero);
+
+  List<int> N = List.filled(10, 0);
+  N[0] = numeroConvertido;
+
+  for (int i = 0; i < 9; i++) {
+    N[i + 1] = N[i] * 2;
+  }
+}
